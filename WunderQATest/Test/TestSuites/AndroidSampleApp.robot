@@ -21,7 +21,7 @@ Suite Teardown     Tear Down - Suite                                     # 'Suti
 *** Test Cases ***
 Test Case 01 : Addition of Integer values
     [Documentation]  This test case covers adding two interger values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_01
 
     # Step 1 : Capture intial app screenshot
@@ -40,7 +40,7 @@ Test Case 01 : Addition of Integer values
 
 Test Case 02 : Addition of floating values
     [Documentation]  This test case covers adding two floating values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_02
 
     # Step 1 : Capture intial app screenshot
@@ -56,7 +56,7 @@ Test Case 02 : Addition of floating values
 
 Test Case 03 : subtraction with positive result
     [Documentation]  This test case covers subtracting two positive values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_03
 
     # Step 1 : Capture intial app screenshot
@@ -72,7 +72,7 @@ Test Case 03 : subtraction with positive result
 
 Test Case 04 : Subtraction with negative result
     [Documentation]  This test case covers subtracting two positive values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_04
 
     # Step 1 : Capture intial app screenshot
@@ -88,7 +88,7 @@ Test Case 04 : Subtraction with negative result
 
 Test Case 05 : Multiplication of two integers
     [Documentation]  This test case covers multiplication two integer values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_05
 
     # Step 1 : Capture intial app screenshot
@@ -104,7 +104,7 @@ Test Case 05 : Multiplication of two integers
 
 Test Case 06 : Multiplication of floating numbers
     [Documentation]  This test case covers multiplication two floating values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_06
 
     # Step 1 : Capture intial app screenshot
@@ -120,7 +120,7 @@ Test Case 06 : Multiplication of floating numbers
 
 Test Case 07 : Multiplication of floating and integer numbers
     [Documentation]  This test case covers multiplication different data type values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_07
 
     # Step 1 : Capture intial app screenshot
@@ -136,7 +136,7 @@ Test Case 07 : Multiplication of floating and integer numbers
 
 Test Case 08 : Division of two numbers resulting in interger values
     [Documentation]  This test case covers division of two integer values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_08
 
     # Step 1 : Capture intial app screenshot
@@ -152,7 +152,7 @@ Test Case 08 : Division of two numbers resulting in interger values
 
 Test Case 09 : Division of two numbers resulting in floating value
     [Documentation]  This test case covers division which results in floating value using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_09
 
     # Step 1 : Capture intial app screenshot
@@ -168,7 +168,7 @@ Test Case 09 : Division of two numbers resulting in floating value
 
 Test Case 10 : Division of two floating numbers
     [Documentation]  This test case covers division of two floating values using 'Simple app' in real Device/Simulator
-    [Tags]    Functional    PositiveScenario
+    [Tags]    Sprint1	UserStoryNumber		Functional    PositiveScenario
     ${Test_Case_Number}     Set Variable    TC_10
 
     # Step 1 : Capture intial app screenshot
