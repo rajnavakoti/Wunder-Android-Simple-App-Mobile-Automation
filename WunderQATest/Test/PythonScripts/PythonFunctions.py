@@ -10,7 +10,7 @@ class PythonFunctions():
 
     def round_of_number(self, a):
         c = format(float(a), '.2f')
-        print c
+        #print c
         return c
 
     def start_appium_server(self):
