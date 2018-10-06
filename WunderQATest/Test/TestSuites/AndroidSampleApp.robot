@@ -198,7 +198,8 @@ Through SimpleApp Perform
     [Documentation]  This keyword perfroms Add/Sub/Mul/Div on Device/Simulator and returns the result value displayed
     ...              Operation must be 'Add' or 'Sub' or 'Mul' or 'Div'
     [Arguments]  ${Operation}   ${Left_Value}  ${Right_Value}   ${Test_Case_Number}
-    Enter Value To  Left Text Box  id=${Input_Field_Left}      ${Left_Value}
+    Click On    Reset Button    id=${reset_Button}
+	Enter Value To  Left Text Box  id=${Input_Field_Left}      ${Left_Value}
     Enter Value To  Right Text Box  id=${Input_Field_Right}     ${Right_Value}
     Capture Page Screenshot     ${Test_Case_Number}_After_Values_Entered_Screen.png
     Run Keyword Unless  '${Operation}' != 'Add' or '${Operation}' != 'Sub' or '${Operation}' != 'Mul' or '${Operation}' != 'Div'  Fail    Error: Operation must be Add or Sub or Mul or Div
